@@ -1,0 +1,12 @@
+-- HOW TO SETUP PROJECT --
+
+1. install node packages
+    `npm install` or `yarn install`
+1. install mongodb
+2. update environment variables and config variables
+    .env
+    ./src/config.json
+3. run backend part 
+    `npm run backend`
+4. run frontend part
+    `npm run start` 

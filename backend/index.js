@@ -19,8 +19,9 @@ mongoose.connect(
 
 const app = express();
 
+console.log("SITE_URL", process.env.SITE_URL)
 app.use(cors({ 
-  origin: 'http://localhost:3000',
+  origin: process.env.SITE_URL,
   credentials: true 
 }));
 app.use(bodyParser.json());
